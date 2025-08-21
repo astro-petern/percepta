@@ -1,0 +1,572 @@
+question,answer
+"Based on Palantir’s reported Q1 2024 and Q1 2025 revenue figures, what are the year-over-year growth rates for total revenue, total revenue excluding strategic commercial contracts, and US revenue; what is the standard deviation across those growth rates; what is the standard deviation of the quarter-over-quarter changes in the Rule of 40 score from Q2 2023 through Q1 2025; and how do these volatility metrics relate to the Rule of 40 score reported for Q1 2025?","Here’s a summary of the key growth‐and‐volatility numbers for Q1 2024 vs. Q1 2025, and how they stack up against the recent volatility of the Rule-of-40 score:
+
+1. Year-over-year revenue growth rates  
+   • Total Revenue (634 → 884 MM): +39% (Q1 2024 → Q1 2025)  
+     (slide: “Total revenue grew 39% Y/Y and 7% Q/Q to $884 million”)  
+   • Total Revenue excl. Strategic Commercial (610 → 879 MM): +44%  
+     (slide: “Total revenue excluding strategic commercial contracts grew 44% Y/Y…”)  
+   • US Revenue (406 → 628 MM): +55%  
+     (slide: “US revenue grew +55% Y/Y… to $628 million”)
+
+2. Dispersion of those three Y/Y growth rates  
+   • Values: {39%, 44%, 55%}  
+   • Mean = 46.0%  
+   • Population-σ = √[ ((39–46)² + (44–46)² + (55–46)²)/3 ] ≃ 6.7 percentage points  
+
+3. Quarter-over-quarter Rule-of-40 changes, Q2 2023→Q1 2025  
+   From the “Reconciliation of Rule of 40” slide, the Rule-of-40 scores are  
+     Q2 ’23 38%, Q3 ’23 46%, Q4 ’23 54%, Q1 ’24 57%, Q2 ’24 64%, Q3 ’24 68%, Q4 ’24 81%, Q1 ’25 83%  
+   ⇒ Δs = {+8, +8, +3, +7, +4, +13, +2} (in p.p.)  
+   • Mean Δ ≃ +6.43 p.p.  
+   • Population-σ = √[Σ(Δ–6.43)²/7] ≃ 3.5 p.p.  
+
+4. How these volatilities relate to Q1 2025’s Rule-of-40 = 83%  
+   – The three Y/Y revenue-growth rates cluster within ±6.7 p.p. of their 46% average, showing moderate dispersion across geographies/adjustments.  
+   – The Rule-of-40 has moved quarter to quarter with a σ of only ~3½ p.p., yet in Q1 2025 it hit an all-time high of 83%.  
+   – In other words, Palantir’s growth and profitability metric (R-40) has exhibited relatively low quarter-to-quarter volatility, and yet has steadily marched upward to a very strong 83% in Q1 2025—well above both its historical average (~61%) and its typical quarterly swing (~±3.5 p.p.)."
+"Given Palantir’s total revenue excluding strategic commercial contracts and adjusted operating income for Q1 2024 and Q1 2025, and its US commercial customer counts for the trailing twelve months ended March 31, 2024 and March 31, 2025, by what percentage did operating expense per US commercial customer change year-over-year between Q1 2024 and Q1 2025?","Below is a back-of-the-envelope calculation using Q1 figures from Palantir’s appendix:
+
+1. Q1 2024  
+   – Revenue ex-strat: \$610.4 M  
+   – Adj. Op. Inc.: \$226.5 M  
+   => Implied Op. Expense = 610.4 – 226.5 = \$383.9 M  
+   – US-Commercial Customers (TTM Mar 31 ’24): 262  
+   => Expense per customer = 383.9 ÷ 262 ≈ \$1.466 M  
+
+2. Q1 2025  
+   – Revenue ex-strat: \$878.7 M  
+   – Adj. Op. Inc.: \$390.7 M  
+   => Implied Op. Expense = 878.7 – 390.7 = \$488.0 M  
+   – US-Commercial Customers (TTM Mar 31 ’25): 432  
+   => Expense per customer = 488.0 ÷ 432 ≈ \$1.130 M  
+
+3. Year-over-year change  
+   (1.130 – 1.466) ÷ 1.466 ≈ –0.771 ⇒ –22.9%
+
+Answer: Operating expense per US commercial customer fell by about 23% year-over-year from Q1 2024 to Q1 2025."
+"By how many millions of dollars did NVIDIA’s total other assets change between January 26, 2025 and April 27, 2025, by how many millions of dollars did assumed-liability acquisitions of property, equipment and intangible assets increase in the first quarter of fiscal year 2026 compared to the first quarter of fiscal year 2025, and what percentage of those Q1 FY2026 acquisitions was represented by the first-quarter intangible-asset amortization expense?","1. Change in total other assets  
+   - As of April 27, 2025, “Total other assets” was $6,788 million; as of January 26, 2025, it was $6,425 million.  
+   - Change = $6,788 M − $6,425 M = **+$363 million**  
+   (Source: “Other Assets (Long Term)” table)
+
+2. Increase in assumed-liability acquisitions  
+   - First quarter FY 2026: $408 million  
+   - First quarter FY 2025: $147 million  
+   - Increase = $408 M − $147 M = **$261 million**  
+   (Source: “Property, equipment and intangible assets acquired by assuming related liabilities…”)
+
+3. Intangible-asset amortization as a percentage of Q1 FY 2026 acquisitions  
+   - Q1 FY 2026 amortization expense: $159 million  
+   - Q1 FY 2026 assumed-liability acquisitions: $408 million  
+   - Percentage = ($159 M / $408 M) × 100 ≈ **39%**  
+   (Source: “Amortization expense associated with intangible assets was $159 million…” in Note 7)"
+"By how many dollars did the fair value of NVIDIA’s CoreWeave investment at April 27, 2025 exceed the carrying value reclassification adjustment recorded against non-marketable equity securities in long-term other assets in Q1 FY26?","The CoreWeave investment was carried at a fair value of $1 billion as of April 27, 2025 (Note 5(1)), and the reclassification out of long-term non-marketable equity securities was $843 million (Note 6).  The difference is:  
+
+$1,000 million – $843 million = $157 million."
+"According to Palantir’s Q1 2025 investor presentation, under the false premise that the Rule of 40 score of 83% was derived by adding the adjusted free cash flow margin to the US government revenue quarter-over-quarter growth rate, what were each of those two percentages, what was the quarter-end balance in cash, cash equivalents, and US Treasury securities, how many deals of at least $1 million closed in the quarter, and what was the US Commercial Customer Count for the trailing twelve months ended March 31, 2025?","Here are the figures under the hypothetical that Palantir’s 83% Rule of 40 in Q1 2025 came from:
+
+1. Adjusted free cash flow margin: 42%  
+   (Reconciliation of Cash Flow slide, “Adjusted Free Cash Flow Margin”)
+
+2. US government revenue Q/Q growth: + 9%  
+   (Business Update highlights, “US government revenue grew … +9% Q/Q to $373 million”)
+
+3. Quarter-end cash, cash equivalents, and US Treasury securities: $ 5.4 billion  
+   (Financials slide, “We ended Q1 2025 with $ 5.4 B in cash, cash equivalents, and US Treasury securities and no debt.”)
+
+4. Deals of at least $ 1 million closed in Q1 2025: 139 deals  
+   (Financials slide, “During Q1 2025, we closed 139 deals of at least $ 1 million.”)
+
+5. US Commercial Customer Count, TTM ended March 31, 2025: 432 customers  
+   (Financials slide, “US Commercial Customer Count” bar at “TTM ENDED MAR 31, 2025”)
+
+–––  
+References:  
+• Q1 2025 Highlights (Business Update)  
+• Cash from Operations & Adjusted Free Cash Flow (Financials)  
+• US Commercial Customer Count (Financials)"
+"For NVIDIA, between the current period and the comparative prior period, which grew faster on a year-over-year basis: the combined stock-based compensation expense and depreciation and amortization in cash flows from operating activities, or the combined net change in unrealized gains (losses) on available-for-sale securities and total other income (expense), net in the consolidated statements of income, and by how many percentage points did the faster growth rate exceed the slower?","**Answer: The “net unrealized gains + other income, net” line grew faster – by about 23 percentage points.**
+
+---
+
+**1. Stock-based comp. + Depreciation & amortization (Cash Flows from Ops)**  
+(from the Condensed Consolidated Statements of Cash Flows, 3 months ended)  
+• Apr 27, 2025  
+  – Stock-based comp.: $1,474 M  
+  – Depreciation & amortization: $611 M  
+  – Combined = $2,085 M  
+• Apr 28, 2024  
+  – Stock-based comp.: $1,011 M  
+  – Depreciation & amort.: $410 M  
+  – Combined = $1,421 M  
+
+YoY growth = (2,085 – 1,421) / 1,421 ≈ 0.467 ⇒ 46.7%  
+
+**2. Net change in unrealized gain (loss) on AFS securities + Total other income (expense), net**  
+– Net change in unrealized gain (loss) on available-for-sale securities  
+  (from Condensed Consolidated Statements of Comprehensive Income)  
+  • Apr 27, 2025:  + $139 M  
+  • Apr 28, 2024:  – $128 M  
+– Total other income (expense), net  
+  (from Condensed Consolidated Statements of Income)  
+  • Apr 27, 2025:  $272 M  
+  • Apr 28, 2024:  $370 M  
+
+Combined:  
+• Apr 27, 2025 = 139 + 272 = $411 M  
+• Apr 28, 2024 = – 128 + 370 = $242 M  
+
+YoY growth = (411 – 242) / 242 ≈ 0.698 ⇒ 69.8%  
+
+---
+
+**Difference in growth rates**  
+69.8% (AFS unrealized + other income) – 46.7% (stock-based comp + D&A) ≈ **23.1 percentage points**."
+"Despite a claim that Nvidia's net cash provided by operating activities in the first quarter of fiscal year 2026 fell year-over-year, what were the actual year-over-year dollar change and the items cited as driving this shift?","Here’s what the Form 10-Q actually shows for Q1 FY 2026 (three months ended April 27, 2025) versus Q1 FY 2025 (ended April 28, 2024):
+
+• Net cash provided by operating activities  
+    – Q1 FY 2026: $ 27,414 million  
+    – Q1 FY 2025: $ 15,345 million  
+    = Year-over-year increase of $ 12,069 million  
+
+• Management’s explanation (MD&A, “Liquidity and Capital Resources”):  
+  “Cash provided by operating activities increased … due to higher revenue and timing of cash collections.”  
+
+So, rather than falling, operating‐cash‐flow rose by about $12.1 billion, driven primarily by stronger revenue and the timing of customer collections."
+"Despite the implication that removing strategic commercial contracts would temper Palantir’s growth in Q1 2025, by how many percentage points did the year-over-year growth rate of total revenue excluding strategic commercial contracts exceed the year-over-year growth rate of overall total revenue?",The year-over-year growth rate ex-Strategic Commercial Contracts (44% Y/Y) exceeded the overall total revenue growth rate (39% Y/Y) by 5 percentage points. (44% − 39% = 5%)
+"Between January 26, 2025 and April 27, 2025, what was the standard deviation of the quarter-over-quarter changes in estimated fair value across debt securities by contractual maturity (less than one year, one to five years, and total), what was the unrealized gain on corporate debt securities reported as of January 26, 2025, and what was the percentage increase in Level 1 money market funds fair value over the same period, considering the company's commentary that gross unrealized losses were driven primarily by changes in interest rates?","Below are the three answers, based on the tables in Note 5 (debt by contractual maturity) and Note 6 (Level 1 money market funds) and the Jan 26, 2025 mark-to-market table:
+
+1. Quarter-over-quarter Δ in estimated fair value by maturity  
+   • < 1 year: 25,781 – 18,450 = + 7,331   
+   • 1–5 years:  26,355 – 23,656 = + 2,699   
+   • Total:      52,136 – 42,106 = + 10,030   
+
+   Population standard deviation of (7,331; 2,699; 10,030)  
+   = √[ ((7,331–6,686.7)²+(2,699–6,686.7)²+(10,030–6,686.7)²)/3 ]  
+   ≈ $3,027 million  
+
+2. Unrealized gain on corporate debt securities at Jan 26, 2025  
+   From the Jan 26, 2025 “Corporate debt securities” line in Note 5:  
+   Unrealized gain = $51 million  
+
+3. % increase in Level 1 money market funds fair value  
+   Level 1 MMF at Jan 26 = $3,760 million  
+   Level 1 MMF at Apr 27 = $6,522 million  
+   Δ = (6,522 – 3,760)/3,760 ≈ 73.4%  
+
+(As the company notes, the gross unrealized losses were driven principally by interest-rate movements.)"
+"After the one-time SAR-related expense hit in Q4 2024, by how many dollars did the acceleration in Palantir’s GAAP operating income—defined as the Q4 2024 to Q1 2025 sequential change minus the Q3 2024 to Q4 2024 sequential change—exceed the analogous acceleration in GAAP net income?","First, extract the relevant GAAP figures (all in millions):
+
+  • GAAP Operating Income  
+    – Q3 2024: $113.1  
+    – Q4 2024: $11.0  
+    – Q1 2025: $176.0  
+
+  • GAAP Net Income  
+    – Q3 2024: $143.5  
+    – Q4 2024: $79.0  
+    – Q1 2025: $214.0  
+
+Compute the two “quarter-to-quarter” changes and then their difference (“acceleration”):
+
+1. GAAP Operating Income  
+   • Q3→Q4 2024 change = $11.0 – $113.1 = –\$102.1  
+   • Q4 2024→Q1 2025 change = $176.0 – $11.0 = +\$165.0  
+   • Operating Income acceleration = 165.0 – (–102.1) = +\$267.1  
+
+2. GAAP Net Income  
+   • Q3→Q4 2024 change = $79.0 – $143.5 = –\$64.5  
+   • Q4 2024→Q1 2025 change = $214.0 – $79.0 = +\$135.0  
+   • Net Income acceleration = 135.0 – (–64.5) = +\$199.5  
+
+Finally, subtract the net-income acceleration from the operating-income acceleration:
+
+  \$267.1 – \$199.5 ≃ **\$67.6 million**
+
+So, after the SAR expense hit in Q4 2024, the uptick in GAAP operating income accelerated by about \$67 million more than the uptick in GAAP net income."
+"Between January 26, 2025 and April 27, 2025, by how many percentage points did NVIDIA’s excess inventory purchase obligations as a percentage of its total accrued and other current liabilities change, and as of April 27, 2025, what percentage of its net long-term carrying amount of debt are its outstanding inventory purchase and long-term supply and capacity obligations?","1. Change in excess inventory purchase obligations as a percentage of total accrued and other current liabilities  
+   - As of January 26, 2025:  
+     Excess obligations $2,095 M ÷ Total accrued & other current liabilities $11,737 M = 17.9%  
+   - As of April 27, 2025:  
+     Excess obligations $4,310 M ÷ Total accrued & other current liabilities $19,211 M = 22.4%  
+   - Difference: 22.4% – 17.9% = **4.5 percentage points** ↑  
+
+   (Source: Note 8 “Accrued and Other Current Liabilities”)
+
+2. Outstanding inventory purchase and long-term supply and capacity obligations as a percentage of net long-term carrying amount of debt (April 27, 2025)  
+   - Obligations: $29.8 B (Note 11)  
+   - Net long-term carrying amount of debt: $8.464 B (Note 10)  
+   - Ratio: $29.8 B ÷ $8.464 B ≈ 3.52 ⇒ **352%**  
+
+   (Sources: Note 10 “Net long-term carrying amount”; Note 11 “Purchase Obligations”)"
+"For NVIDIA’s quarter ended April 27, 2025, what percentage of its remaining performance obligations for contracts greater than one year was unbilled, and for Palantir in Q1 2025, what percentage of its total remaining performance obligations was classified as long-term under its ASC 606 election?","1. NVIDIA (Quarter ended April 27, 2025)  
+   As disclosed in Note 2 (Deferred Revenue) to the April 27, 2025 Form 10-Q:  
+   “Revenue related to remaining performance obligations from contracts greater than one year in length was $1.8 billion, which includes $1.6 billion of deferred revenue and $160 million which has not yet been billed nor recognized as revenue.”  
+   ⇒ Unbilled portion = $160 million ÷ $1,800 million ≈ 8.9%  
+
+2. Palantir (Q1 2025, ASC 606 practical expedient)  
+   In Palantir’s Q1 2025 appendix under “Additional Metrics and Notes,” total RPO was $1.90 billion, of which $1.00 billion was classified as long-term (the balance being short-term).  
+   ⇒ Long-term RPO = $1.00 billion ÷ $1.90 billion ≈ 52.6%  
+
+References:  
+- NVIDIA Form 10-Q (Apr. 27, 2025), Note 2, p. 15  
+- Palantir Q1 2025 Appendix, “Total RPO” table."
+"Between the trailing twelve months ended March 31, 2024 and March 31, 2025, how many non-US commercial customers did Palantir add and what percentage of the total global commercial customer growth did this addition represent?","[Error: Error querying Morphik after 4 attempts: Server error '500 Internal Server Error' for url 'https://api.morphik.ai/query'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500]"
+"What was the compound annual growth rate of NVIDIA’s operating lease obligations between fiscal years 2026 and 2028, and how does this growth relate to the company’s expectation to commence new data center and office operating leases from the second quarter of fiscal year 2026 through fiscal year 2030?","**Answer:** 
+
+Between fiscal 2026 and fiscal 2028, NVIDIA’s operating‐lease obligations grow from \$274 million to \$349 million.  The compound annual growth rate (CAGR) over that two-year span is:
+
+  
+CAGR = (349 / 274)^(1/2) – 1 ≈ 1.2737^(0.5) – 1 ≈ 12.8% per year  
+
+This rising trend in lease obligations foreshadows NVIDIA’s announced plan to further expand its facility footprint.  As noted in the financial statement, “Between the second quarter of fiscal year 2026 and fiscal year 2030, we expect to commence leases with future obligations of \$7.4 billion, primarily of data center and office operating leases, with lease terms of 2 to 15.5 years.”  In other words, the ~13% CAGR in existing operating-lease liabilities through FY 2028 is consistent with—and a precursor to—the much larger \$7.4 billion of new data-center and office leases scheduled to begin in Q2 FY 2026 and run through FY 2030.  
+
+> **Source (Note 14 – Leases):**  
+> • Fiscal 2026 (excl. Q1): \$274 M  
+> • Fiscal 2027: \$346 M  
+> • Fiscal 2028: \$349 M  
+> • “Between the second quarter of fiscal year 2026 and fiscal year 2030, we expect to commence leases with future obligations of \$7.4 billion primarily of data center and office operating leases…”"
+"For the trailing twelve months ended March 31, 2025, what is the ratio of the standard deviation of quarter-over-quarter growth rates for US commercial customer count compared to total customer count, and what does this ratio imply about the volatility of US commercial expansion relative to management’s reported 65% year-over-year growth?","Below is a brief calculation of the quarter-over-quarter (Q/Q) growth‐rate volatility for both series over the four quarters ending March 31, 2025, and the resulting ratio:
+
+1. Extract the Q/Q growth rates from the charts  
+   - US Commercial Customer Count (TTM QoQ): 13%, 9%, 19%, 13%  
+   - Total Customer Count (TTM QoQ): 7%, 6%, 13%, 8%
+
+2. Compute the (population) standard deviations  
+   - σ (commercial) = √[[(13–13.5)² + (9–13.5)² + (19–13.5)² + (13–13.5)²] / 4] ≈ 3.57%  
+   - σ (total)      = √[[(7–8.5)² + (6–8.5)² + (13–8.5)² + (8–8.5)²] / 4] ≈ 2.69%
+
+3. Form the ratio  
+   ratio = σ (commercial) / σ (total) ≈ 3.57% / 2.69% ≈ **1.33**
+
+What it implies  
+Even though management highlights a very strong **+65% year-over-year** increase in US commercial customer count, the underlying **quarter-to-quarter** changes in that segment are about one-and-a-third times more variable than those for the total customer base. In other words, US commercial growth exhibits noticeably higher short-term volatility despite its robust annual trend."
+"For NVIDIA, for the first quarter of fiscal year 2026 compared to the first quarter of fiscal year 2025, what were the dollar increase in Interest income and the dollar decline in Other income (expense), net, and what was the primary driver identified for the change in Other income (expense), net?","For the first quarter of FY 2026 versus Q1 FY 2025, NVIDIA’s:  
+
+- Interest income rose by $156 million (from $359 million to $515 million).  
+- Other income (expense), net fell by $255 million (from a $75 million gain to a $180 million loss).  
+
+The year-over-year decline in Other income (expense), net was driven “primarily by unrealized losses in our publicly-held equity securities due to fair value volatility in our investments, particularly CoreWeave and Arm, Inc.”¹  
+
+¹ See “Total Other Income (Expense), Net,” Q1 FY 2026 MD&A."
+"After deploying Palantir Eval-Driven Automation in AIP as showcased in the DevCon 2 overview, by how much did Wendy's QSCC shorten its supply chain problem resolution cycle and how much did Heineken accelerate its solution build time?","Wendy’s QSCC reports that what used to take “weeks and days” now takes just five minutes, and Heineken’s team went from a three-year build cycle down to three months."
+"Management asserted that Palantir delivered an 85% adjusted gross margin, sub-$450 million of adjusted expenses, and $220 million of net income attributable to common stockholders in Q1 2025; what do the reconciliation tables actually report for those three metrics?","Here’s what the appendix reconciliation schedules actually show for Q1 2025 (all figures in thousands, except margins):
+
+1.  Adjusted Gross Margin  
+    – From the “Reconciliation of Gross Profit to Adjusted Gross Profit & Adjusted Gross Margin” table:  
+      • Adjusted Gross Profit = \$725,901  
+      • Revenue (from other slides) = \$884 million  
+      • Adjusted Gross Margin = 82%  
+
+2.  Adjusted Expenses  
+    – From the “Reconciliation of Cost of Revenue and Total Operating Expenses to Adjusted Expenses” table:  
+      • Total Expenses = \$707,807  
+      • Less: Stock-Based Compensation     \$155,339  
+      • Less: Employer Payroll Taxes       \$59,323  
+      → Adjusted Expenses = \$493,145  
+
+3.  Net Income Attributable to Common Stockholders  
+    – From the “Reconciliation of GAAP Earnings Per Share, Diluted to Adjusted Earnings Per Share, Diluted” table:  
+      • Net Income Attributable to Common Stockholders = \$214,031  
+
+In short, the reconciliations show  
+– Adjusted gross margin of 82% (not 85%)  
+– Adjusted expenses of \$493 million (not sub-\$450 million)  
+– GAAP net income to common of \$214 million (versus the \$220 million asserted)"
+"Between January 26, 2025 and April 27, 2025, what was the change in Nvidia’s unamortized debt discount and issuance costs expressed as a percentage of the total scheduled long-term debt principal across all maturity buckets?","Below is a brief calculation based on the Note 10 “Debt” disclosures (see pages 16 and 29 of the PDF):
+
+1. Total long-term debt principal (all maturities) as of both dates:  
+   3,750 + 1,250 + 3,500 = 8,500 million
+
+2. Unamortized debt discount & issuance costs:  
+   • Jan 26, 2025: \$37 million  
+   • Apr 27, 2025: \$36 million
+
+3. As a percentage of total principal:  
+   • Jan 26, 2025: 37 / 8,500 ≈ 0.4353%  
+   • Apr 27, 2025: 36 / 8,500 ≈ 0.4235%
+
+4. Change (Apr 27 vs. Jan 26):  
+   0.4235% − 0.4353% = –0.0118 percentage points  
+
+In other words, the unamortized discount and issuance costs fell by approximately 0.012 % of the total scheduled long-term debt principal (about 1.2 basis points)."
+"Which four factors did NVIDIA cite in Note 4 of its Q1 FY2026 financial statements for its effective tax rate being lower than the 21% U.S. federal statutory rate, what was that effective tax rate, and what estimated long-term annual effective tax rate did Palantir apply to its income tax effect for market-vesting SARs?","**NVIDIA (Q1 FY 2026, Note 4 – Income Taxes)**  
+– Income tax as a percentage of pretax income was 14.3% for Q1 FY 2026 (vs. 13.9% in Q1 FY 2025).  
+– The Company’s effective rate was below the 21% U.S. federal statutory rate “primarily due to”:  
+  1. Tax benefits from the foreign-derived intangible income deduction  
+  2. Stock-based compensation  
+  3. Income earned in jurisdictions taxed at rates below the U.S. federal rate  
+  4. The U.S. federal research tax credit  
+  (See “Note 4 – Income Taxes,” NVIDIA Q1 10-Q.)
+
+**Palantir (Reconciliations in Appendix)**  
+– In footnotes to its SAR-related reconciling items, Palantir states:  
+  “Income tax effect is based on an estimated long-term annual effective tax rate of 23.0%…”  
+  (See “Income Tax Effects and Adjustments Related to Market-Vesting SARs [1],” Palantir Q1 2025 Appendix.)"
+"Between the Magnificent 7’s expected EPS growth for 2025 and the US corporate mid-single-digit EPS growth forecast over the next 12 months, which forecast is higher and what percentage of its market capitalization did Goldman Sachs plan to repurchase under its share repurchase program?","[Error: Error querying Morphik after 4 attempts: Server error '500 Internal Server Error' for url 'https://api.morphik.ai/query'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500]"
+"If NVIDIA's Q2 2025 disclosure implied that the weighted average recognition period for RSUs, PSUs and market-based PSUs was shorter than that for ESPP, what are the actual weighted average recognition periods for those awards and which functional area recorded the lowest stock-based compensation expense in the quarter ended April 27 2025?","**Answer:**
+
+- The weighted-average recognition period for  
+  - RSUs, PSUs and market-based PSUs is **2.3 years**  
+  - ESPP is **1.1 years**  (Note 2)  
+- In the quarter ended April 27, 2025, **Cost of revenue** recorded the lowest stock-based compensation expense at \$64 million.  
+
+**Sources:**  
+- Note 2 – Stock-Based Compensation, page 9 (“…recognized over a weighted average period of 2.3 years for RSUs, PSUs, and market-based PSUs, and 1.1 years for ESPP.”)  
+- Condensed Consolidated Statements of Income, page 9 (Three months ended Apr 27, 2025: Cost of revenue \$64 M; R&D \$1,063 M; SG&A \$347 M)"
+"According to the “Securities registered pursuant to Section 12(b) of the Act” table, on which exchange is NVIDIA’s common stock listed, and under the definitions in Rule 12b-2 of the Exchange Act which filer category did NVIDIA meet for the quarter ended April 27, 2025, and what was its gross profit margin for that quarter?","**Exchange Listing**  
+Under the “Securities registered pursuant to Section 12(b) of the Act” table (Cover page), NVIDIA’s Common Stock (NVDA) is listed on  
+    The Nasdaq Global Select Market.¹  
+
+**Filer Category**  
+Per the Rule 12b-2 check-boxes, NVIDIA is designated a **Large Accelerated Filer** (and, by extension, an Accelerated Filer).²  
+
+**Gross Profit Margin**  
+For the quarter ended April 27, 2025, NVIDIA reported:  
+    Revenue – $44,062 million  
+    Cost of revenue – $17,394 million  
+    Gross profit – $26,668 million  
+
+Gross profit margin = 26,668 ÷ 44,062 ≈ **60.5%**.³  
+
+---
+
+¹ Form 10-Q Cover, “Name of each exchange on which registered”  
+² Form 10-Q Cover, Rule 12b-2 filer check-boxes (“Large accelerated filer” ☒)  
+³ Form 10-Q, Condensed Consolidated Statement of Operations (Three Months Ended Apr. 27, 2025)"
+"In the three months ended April 27, 2025, what percentage of Nvidia’s consolidated Operating income was absorbed by the All Other category’s Stock-based compensation expense and what percentage of the Compute & Networking segment’s Revenue was consumed by its Other segment items?","1. All Other Stock-based Compensation vs. Consolidated Operating Income  
+   - Stock-based compensation (All Other) for the three months ended April 27, 2025: \$1,474 million  
+   - Consolidated operating income: \$21,638 million  
+   → \$1,474 / \$21,638 ≈ 0.0681 = 6.8%  
+   (i.e., stock-based comp in “All Other” absorbed about 6.8% of consolidated operating income.)
+
+2. Compute & Networking Other Segment Items vs. Compute & Networking Revenue  
+   - “Other segment items” (Compute & Networking) for the quarter: \$17,535 million  
+   - Compute & Networking revenue: \$39,589 million  
+   → \$17,535 / \$39,589 ≈ 0.443 = 44.3%  
+   (i.e., Other segment items consumed about 44.3% of Compute & Networking revenue.)
+
+Sources:  
+- “Reconciling items included in ‘All Other’ category,” Three Months Ended Apr 27, 2025 (Stock-based compensation \$1,474 M; Total Operating Income \$21,638 M)  
+- Segment Information (Note 13), Three Months Ended Apr 27, 2025 (Compute & Networking: Revenue \$39,589 M; Other segment items \$17,535 M)"
+"In the first quarter of fiscal year 2026, what was NVIDIA's interest coverage ratio (interest income divided by interest expense) and what percentage of its net interest spread did net unrealized losses on publicly-held equity securities—driven by fair value volatility in investments including CoreWeave and Arm, Inc.—consume?","1. Interest coverage ratio  
+   For the three months ended April 27, 2025 (Q1 FY 26),  
+   - Interest income   $ 515 million  
+   - Interest expense   $  63 million  
+   → Interest coverage = 515 / 63 ≈ 8.2×  
+   (See “Interest income” and “Interest expense,” Condensed Consolidated Statement of Income.)
+
+2. Net unrealized losses as a percentage of net interest spread  
+   – Net interest spread (interest income minus interest expense):  
+     515 – 63 = 452 million  
+   – Net unrealized losses on publicly-held equity securities in Q1 FY 26:  
+     $ 222 million  
+   → 222 / 452 ≈ 49%  
+   (See Note 5: “Net unrealized losses on investments in publicly-held equity securities held at period end were $222 million for the first quarter of fiscal year 2026.”)"
+"What is the unweighted arithmetic average of Palantir’s Q1 2025 Rule of 40 score and its year-over-year growth rates in US revenue, US commercial revenue, total revenue, and total revenue excluding strategic commercial contracts?","Here are the five Q1 2025 metrics in question:
+
+- Rule of 40 score: 83%  
+- US revenue Y/Y growth: 55%  
+- US commercial revenue Y/Y growth: 71%  
+- Total revenue Y/Y growth: 39%  
+- Total revenue excl. Strategic Commercial Contracts Y/Y growth: 44%  
+
+The unweighted arithmetic average of those five percentages is:
+
+(83 + 55 + 71 + 39 + 44) ÷ 5 = 292 ÷ 5 = 58.4%
+
+So, the simple average is **58.4%**.  
+
+—  
+References:  
+• Q1 2025 Highlights (“Rule of 40 score of 83%,” “US revenue grew +55% Y/Y,” “US commercial revenue grew +71% Y/Y,” “Revenue grew +39% Y/Y,” “+44% Y/Y … excluding Strategic Commercial Contracts”)"
+"For the Magnificent 7 (Mag 7) stocks, what is their year-to-date underperformance in percentage points versus the broad technology sector as of May 9, what is the percentage-point difference between their expected EPS growth in 2025 and that of the rest of the market, and what is their forward price-to-earnings multiple premium relative to the broad market?","Here are the key numbers from “Will tech stocks get a second wind?” (2025 Mid-Year Outlook, p. 14):
+
+1. Year-to-date underperformance vs. broad tech (as of May 9)  
+   – Technology sector: down just over 8%  
+   – Magnificent 7: down just over 12%  
+   ⇒ Underperformance ≈ 4 percentage points
+
+2. Expected EPS growth in 2025  
+   – Mag 7: 15%  
+   – Rest of market: 8%  
+   ⇒ Difference = 7 percentage points
+
+3. Forward P/E multiple premium vs. broad market  
+   – Mag 7: 26×  
+   – Broad market: 20×  
+   ⇒ Premium = 6 turns (i.e. 26× − 20×)
+
+Sources:  
+– “Tech and tech-adjacent stocks… As of May 9, the technology sector is down over 8%, and the Magnificent 7 (Mag 7) stocks have fallen over 12% year-to-date.” (p. 14)  
+– “The Magnificent 7 is expected to deliver 15% EPS growth in 2025 versus 8% EPS growth for the rest of the market.” (p. 14)  
+– “On the valuation front, the Mag 7 stocks… at a 26× forward price-to-earnings multiple (versus 20× for the broad market).” (p. 14)"
+"What percentage reduction in supply chain development time did Palantir deliver at Heineken, what projected unit economics improvement did it target with R1 RCM’s healthcare AI lab, and what ontology capability did it provide to Archer Aviation’s eVTOL program?","1. At Heineken, Palantir’s teams went from what used to take three years to deliver in just three months – a roughly 92 percent collapse in supply-chain build-out time.  
+2. With R1 RCM’s new healthcare AI lab, Palantir is targeting up to a 50 percent improvement in unit economics.  
+3. For Archer Aviation’s eVTOL program, Palantir built a domain ontology of the aircraft’s bill of materials that lets engineers explore every part hierarchically – a view they hadn’t been able to visualize before."
+"By how many percentage points did the U.S. dollar’s share of SWIFT trade finance settlements exceed its share of global central bank foreign exchange reserves as of December 31, 2024, and how many percentage points per annum is U.S. dollar depreciation projected by J.P. Morgan Asset Management to add to U.S. dollar–based total returns on European and Japanese equity investments over the next 10–15 years?","The two “book-ends” here are:  
+
+1.  SWIFT trade-finance settlements: the dollar’s share is roughly 85% versus about 60% of global central-bank FX reserves (as of 12/31 2024) – a gap of 25 percentage points.  
+2.  In J.P. Morgan Asset Management’s 2025 Long-Term Capital Market Assumptions, they project that dollar depreciation will boost U.S.-$–based total returns on European and Japanese equities by about 1–2 percentage points per annum over the next 10–15 years.^1  
+
+—  
+1 “Today, the dollar makes up 60% of foreign exchange reserves … nearly 85% of SWIFT trade finance settlements.” … “U.S. dollar depreciation will add 1%–2% annually to total returns for European and Japanese equity investments in U.S. dollar terms for the next 10–15 years.” (J.P. Morgan, 2025 Mid-Year Outlook, pp. 20–21, 27)"
+"For NVIDIA, comparing the quarters ended April 27, 2025 and April 28, 2024, by how many percentage points did the year-over-year growth rate of “Total revenue” in the Geographic Revenue by customer billing location table lag the year-over-year growth rate of “Deferred revenue additions” in the Deferred Revenue table?","Here’s the comparison:
+
+• Total revenue (Geographic revenue table)  
+  – Apr 27, 2025: $44,062 million  
+  – Apr 28, 2024: $26,044 million  
+  Year-over-year growth = (44,062 – 26,044)/26,044 ≈ 0.69 = 69%¹
+
+• Deferred-revenue additions (Deferred Revenue table)  
+  – Apr 27, 2025: $6,493 million  
+  – Apr 28, 2024:            553 million  
+  Year-over-year growth = (6,493 – 553)/553 ≈ 10.74 = 1,074%
+
+Difference in year-over-year growth rates  
+  = 1,074% – 69% ≈ 1,005 percentage points
+
+––––––––––––––––  
+1. NVIDIA First Quarter FY 2026 Summary (page 23), “Year-over-Year Change” for Revenue."
+"Under the Tariff Policy Uncertainty framework described in JPMorgan’s midyear report, what share of the 20 stocks driving 80% of the S&P 500’s year-to-date peak-to-trough losses were AI-exposed, what capex growth rate do analysts pencil in for the four major hyperscalers, and what percentage of the investable software universe is public?","[Error: Error querying Morphik after 4 attempts: Server error '500 Internal Server Error' for url 'https://api.morphik.ai/query'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500]"
+"How many percentage points did Palantir’s Q1 2025 adjusted operating margin, described as reflecting aggressive investments in AIP and the US to drive operating leverage, exceed its Q1 2025 GAAP operating margin, and what was the Q1 2025 ratio of GAAP net income to GAAP operating income?","Palantir’s Q1 2025 adjusted operating margin was 44% versus a GAAP operating margin of 20%, a gap of 24 percentage points.  In that same quarter GAAP net income was \$214 million on a GAAP operating income of \$176 million, i.e. a net‐to‐operating income ratio of about 214/176 ≈ 1.22× (≈ 122%)."
+"By how many percentage points did the share of trading days with simultaneous declines in U.S. stocks, bonds and currency fall in 2025 relative to the three-year average, by how many percentage points has equity allocation drift increased since 2020, and which currency continues to hold the largest share of global central bank foreign exchange reserves?","1. The percentage of trading days with simultaneous declines in U.S. stocks, bonds and the dollar has dropped from roughly 7.5% (the three-year average) to 5% in 2025—a fall of about **2.5 percentage points** (7.5% – 5%).  
+2. A 60/40 equity-bond portfolio in 2020 has “drifted” to about a 75/25 split today—an increase in equity allocation of approximately **15 percentage points**.  
+3. And despite modest reserve diversification, the **U.S. dollar** still commands by far the largest share of global central-bank foreign-exchange reserves.  
+
+Sources:  
+• “Tracking the market’s perception of the dollar,” p. 22 (7.5% vs. 5%)  
+• “All that glitters is gold?”, p. 18 (60% → 75% equity)  
+• “The U.S. dollar still accounts for the lion’s share…,” p. 21 (USD)"
+"In NVIDIA's first quarter of fiscal 2026, by how many percentage points did interest income as a share of gross profit increase year-over-year, and how did that compare to the year-over-year percentage increase in research and development expenses?","1. Interest income as a share of gross profit  
+   - Q1 ’26 interest income / gross profit = \$515 M / \$26,668 M ≈ 1.93%  
+   - Q1 ’25 interest income / gross profit = \$359 M / \$20,406 M ≈ 1.76%  
+   → increase of about 0.17 percentage points year-over-year
+
+2. Research & development expenses  
+   – Q1 ’26 R&D spend of \$3,989 M vs. \$2,720 M in Q1 ’25 represents a 47% year-over-year increase¹
+
+––––––––––––––––––––––––––––––––––––––––––––  
+¹ “Research and development expenses $3,989 vs. $2,720 … % Change 47%” (Operating Expenses table)"
+"What manufacturing lead times has NVIDIA previously experienced, which fiscal quarter saw gross margins negatively impacted by inventory provisions for low-yielding Blackwell material, and in which quarter are sample shipments of Blackwell Ultra expected to commence?","1. Manufacturing lead times previously experienced   
+   NVIDIA notes that in periods of supply shortages its “lead times for certain supply may be extended. We have previously experienced and may continue to experience extended lead times of more than 12 months.” (“Long manufacturing lead times…”; Form 10-Q, Item 1A Risk Factors, p. 30)  
+
+2. Quarter in which gross margins were hit by low-yield Blackwell provisions   
+   “Our gross margins in the second quarter of fiscal year 2025 were negatively impacted by inventory provisions for low-yielding Blackwell material.” (“Product transitions are complex…”; Form 10-Q, Risk Factors, p. 32)  
+
+3. When Blackwell Ultra sample shipments begin   
+   NVIDIA expects “to begin shipping samples and production units of our new Blackwell Ultra platforms in the second quarter of fiscal year 2026.” (Management’s Discussion, Form 10-Q, p. 23)"
+"What percentage of historical infrastructure total returns is driven by income, what tax rates were assumed for long-term and short-term capital gains in J.P. Morgan’s after-tax hedge fund performance analysis, and by what factor has client utilization of equity-linked structured notes increased this year compared to 2024?","1. Income drives over 40 percent of historical infrastructure total returns.  
+   Source: “Further, over 40 % of the historical returns of infrastructure investments are driven by income.”  
+
+2. In J.P. Morgan’s after-tax hedge-fund analysis, tax rates of 23.8 % for long-term capital gains and 43.4 % for short-term capital gains were assumed.  
+   Source (footnote 6): “For this analysis, the tax rates were assumed to be 23.8 % for Long-Term Capital Gains and 43.4 % for Short-Term Capital Gains.”  
+
+3. Client utilization of equity-linked structured notes has doubled this year compared to 2024 (i.e. 2×).  
+   Source: “Our clients seem to agree: Twice as many are utilizing structured notes this year relative to 2024.”"
+"In Q1 2025, by how many percentage points does the year-over-year growth rate of total revenue excluding Strategic Commercial Contracts exceed the year-over-year growth rate of total revenue, and by how many percentage points lower is that excess than the spread between US commercial and US government revenue growth rates?","1. In Q1 2025, total revenue ex-Strategic Commercial Contracts grew 44% Y/Y versus 39% Y/Y for total revenue, a difference of  
+   • 44% − 39% = **5 percentage points**.  
+   (Sources: “Total revenue grew +39% Y/Y …; +44% Y/Y … excluding Strategic Commercial Contracts.”)
+
+2. The spread between US commercial and US government revenue growth rates was  
+   • 71% (Y/Y commercial) – 45% (Y/Y government) = **26 percentage points**.  
+   (Sources: “US commercial revenue grew +71% Y/Y …” and “US government revenue grew +45% Y/Y …”)
+
+3. Hence, the 5 pp “excess” is 26 pp − 5 pp = **21 percentage points** lower than the US commercial-to-government growth spread."
+"What is the ratio of the U.S. dollar's share of global central bank foreign exchange reserves in 2024 to the euro's share of SWIFT settlements, and by how many percentage points does the dollar's share of SWIFT trade finance settlements exceed its share of international debt?","[Error: Error querying Morphik after 4 attempts: Server error '500 Internal Server Error' for url 'https://api.morphik.ai/query'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500]"
+"Between the first quarters of fiscal years 2025 and 2026, by how many basis points did NVIDIA’s operating lease cash flow conversion ratio—calculated as operating cash flow used for operating leases divided by operating lease expense—change?","Between Q1 2025 and Q1 2026 the conversion ratio rose from 69 / 80 = 86.3% to 96 / 101 = 95.1%, an increase of about 8.8 percentage points, or roughly 880 basis points.  
+
+Sources:  
+- “Operating lease expenses were $101 million and $80 million for the first quarter of fiscal years 2026 and 2025…”  
+- “Operating cash flow used for operating leases $96 million and $69 million for the first quarter of fiscal years 2026 and 2025…”"
+"According to Nvidia’s cash flow statement, when it was incorrectly claimed that net cash used in investing activities exceeded share repurchases for the period, what were the actual figures for net cash used in investing activities versus share repurchases and how did dividends paid compare to payments for employee stock plan taxes?","Here are the actual cash‐flow figures for the quarter ended April 27, 2025 (unaudited), drawn from the Condensed Consolidated Statement of Cash Flows:
+
+- Net cash used in investing activities: $ 5,216 million  
+- Payments related to repurchases of common stock: $ 14,095 million  
+
+Thus, share buybacks well exceeded investing outflows.
+
+In the financing section for the same period:
+
+- Payments related to employee stock-plan taxes (i.e., tax withholding on equity awards): $ 1,532 million  
+- Dividends paid: $ 244 million  
+
+So dividends paid were modest ($244 M) compared with the $1.53 billion paid for employee stock plan taxes."
+"On a quarter-over-quarter basis, by how many millions of dollars did NVIDIA’s net working capital change, by how many millions of dollars did its retained earnings increase, and what percentage of that retained earnings increase was consumed by purchases of property and equipment and intangible assets?","1. Change in Net Working Capital  
+   – Net working capital (“current assets” less “current liabilities”) as of April 27, 2025 was  
+     89,935 – 26,542 = 63,393 million  
+   – Net working capital as of January 26, 2025 was  
+     80,126 – 18,047 = 62,079 million  
+   – Δ = 63,393 – 62,079 = + 1,314 million  
+
+2. Increase in Retained Earnings  
+   – Retained earnings as of April 27, 2025: 72,158 million  
+   – Retained earnings as of January 26, 2025: 68,038 million  
+   – Δ = 72,158 – 68,038 = + 4,120 million  
+
+3. Percentage of That Increase Consumed by Purchases of Property, Equipment & Intangibles  
+   – From the Condensed Consolidated Statements of Cash Flows (Three Months Ended April 27, 2025):  
+     “Purchases related to property and equipment and intangible assets” = 1,227 million  
+   – 1,227 ÷ 4,120 ≈ 29.8 %  
+
+—  
+Sources:  
+• Condensed Consolidated Balance Sheets (Apr 27 vs Jan 26, 2025)  
+• Condensed Consolidated Statements of Cash Flows (Three Months Ended Apr 27, 2025)"
+"Under footnote 11 in J.P. Morgan’s midyear report article “IS THIS THE DOWNFALL OF THE U.S. DOLLAR?” what is the difference in percentage points between the net percentage of investors expecting continued dollar depreciation and the year-to-date share of trading days in 2025 with simultaneous declines in U.S. stocks, bonds and the dollar as defined by the market-credibility metric in the “Tracking the market’s perception of the dollar” section?","The net share of investors expecting further dollar depreciation (footnote 11) is 61%, while the market-credibility metric shows that just 5% of trading days in 2025 saw simultaneous declines in U.S. stocks, bonds and the dollar.  
+
+61% – 5% = 56 percentage points.  
+
+Sources:  
+- “Nearly … a net 61%, the highest share since 2006, expect it to continue to depreciate.”¹  
+- “So far in 2025, only 5% of trading days have seen simultaneous declines in U.S. stocks, bonds and currencies.”²  
+
+¹ Page 21, footnote 11  
+² Page 22, “Tracking the market’s perception of the dollar”"
+"In Q1 FY26, following the USG’s April 9, 2025 export licensing requirements that diminished demand for H20 products, what percentage of pre-licensing H20 sales did NVIDIA’s related excess inventory charge represent, and by how many percentage points did that percentage exceed Palantir’s Q1 2025 adjusted operating margin?","1. NVIDIA’s excess-inventory charge of \$4.5 billion on H20 products against \$4.6 billion of pre-licensing sales represents about 4.5/4.6≈97.8%, or roughly 98% of those sales.  
+2. Palantir’s Q1 2025 adjusted operating margin was 44%.  
+3. Thus, NVIDIA’s charge (≈98%) exceeded Palantir’s 44% margin by about 54 percentage points.  
+
+Sources:  
+- NVIDIA Q1 FY26 10-Q (April 9, 2025 export license disclosure)  
+- Palantir Q1 2025 slides (adjusted operating margin of 44%)"
+"What is the full applicability date of the EU AI Act, what licensing requirement and compliance deadline would the US government's ""AI Diffusion"" IFR have imposed on NVIDIA's H200 and GB200 data center products, and which NVIDIA product category would the USG's ""Connected Vehicle"" import restrictions affect?","1. EU AI Act full applicability date  
+   “The EU AI Act became effective on August 1, 2024 and will be fully applicable after a two-year transitional period” → i.e. **August 1, 2026**.¹
+
+2. USG “AI Diffusion” IFR licensing requirement & deadline  
+   – License requirement: a **worldwide export licensing requirement** for all products (and related software/tech) under ECCNs 3A090.a, 4A090.a (and corresponding “.z” entries), including the H200 and GB200 data-center GPUs.²  
+   – Compliance deadline: **120 days** after the IFR’s publication (the IFR was published January 15, 2025, so in effect ~May 15, 2025).
+
+3. USG “Connected Vehicle” import restrictions  
+   Those rules target the **Automotive** product category—i.e. NVIDIA’s automotive-grade chips and platforms for “connected vehicle” applications.³
+
+––––––––––––––––  
+¹ “EU AI Act …will be fully applicable after a two-year transitional period.” (Risk Factors)  
+² “In January 2025…the ‘AI Diffusion’ IFR…After a 120-day delayed compliance period, the IFR would have imposed a worldwide licensing requirement on … ECCNs…including all related software and technology. The licensing requirement would have applied to our…H200 and GB200.” (Risk Factors)  
+³ “In addition to export controls…the USG adopted ‘Connected Vehicle’ restrictions on the import and sale of certain automotive products in the United States…” (MD&A)"
+"What is the ratio of the net share of investors expecting further U.S. dollar depreciation to the three-year rolling share of trading days with simultaneous declines in U.S. stocks, bonds and currencies, and how does that ratio compare with the volatility multiple of an unhedged ex-U.S. aggregate bond portfolio relative to a U.S. dollar domestic bond portfolio over the last 20 years?","Here’s how the two numbers break down (all figures from J.P. Morgan’s 2025 Mid-Year Outlook):
+
+1. Net share expecting further USD depreciation  
+   “Nearly 70% of investors surveyed think the dollar is ‘overvalued,’ and a net 61%, the highest share since 2006, expect it to continue to depreciate.”¹  
+
+2. Three-year rolling share of trading days with simultaneous U.S. stock, bond and dollar declines  
+   “U.S. assets have experienced these simultaneous declines in around 7.5% of trading days over the last three years.”²  
+
+3. Volatility multiple of an unhedged ex-U.S. aggregate bond portfolio vs. a U.S. dollar domestic bond portfolio  
+   “A dollar-based investor in an unhedged ex-U.S. aggregate bond portfolio experienced almost 2× the volatility of a U.S. dollar domestic bond portfolio over the last 20 years.”³  
+
+Putting (1) and (2) together:  
+– Ratio = net share expecting depreciation ÷ share of triple-decline days  
+– Ratio ≈ 61% ÷ 7.5% ≃ 8.1  
+
+By comparison, the unhedged ex-U.S. bond portfolio’s volatility is only about 2× that of domestic bonds. In other words, the market’s bearish dollar sentiment (≈ 8 to 1) is roughly four times larger than the cross-border bond-volatility premium (≈ 2 to 1).  
+
+—  
+¹ “Net 61% expect [the dollar] to continue to depreciate.” (p. 21)  
+² “Simultaneous declines in around 7.5% of trading days over the last three years.” (p. 22)  
+³ “Experienced almost 2× the volatility … over the last 20 years.” (p. 21)"

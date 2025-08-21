@@ -1,0 +1,45 @@
+[registered_models]
+openai_gpt4 = { model_name = "gpt-4" }
+openai_gpt4_mini = { model_name = "gpt-4o-mini" }
+openai_o4_mini = { model_name = "o4-mini" }
+openai_gpt35 = { model_name = "gpt-3.5-turbo" }
+
+[rules]
+model = "openai_gpt4"
+batch_size = 3072
+max_retries = 3
+timeout_seconds = 120
+
+[retrieval]
+default_k = 10
+default_padding = 3
+default_min_score = 0.075
+enhanced_k = 15
+enhanced_padding = 5
+enhanced_min_score = 0.05
+
+[query_optimization]
+enable_query_expansion = true
+enable_context_injection = true
+enable_multi_pass_retrieval = true
+max_retry_attempts = 5
+retry_delay_base = 1.0
+retry_delay_multiplier = 2.0
+
+[document_classification]
+financial_statements = ["10-q", "10-k", "earnings", "financial"]
+investor_presentations = ["presentation", "investor", "slides"]
+market_analysis = ["market", "outlook", "analysis", "midyear"]
+press_releases = ["press", "news", "announcement"]
+
+[metadata_schemas]
+enable_financial_metrics = true
+enable_business_metrics = true
+enable_market_analysis = true
+enable_cross_references = true
+
+[performance]
+connection_timeout = 45000
+query_timeout = 30000
+ingestion_delay = 0.2
+query_delay = 0.5
