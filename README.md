@@ -25,7 +25,7 @@
 
 **Note**: The naive solution (`percepta_interview_naive_eval.py`) is based on the standard Morphik evaluation pattern from [morphik_eval.py](https://github.com/morphik-org/morphik-core/blob/main/evaluations/custom_eval/morphik_eval.py), which I used as my starting point before implementing the enhancements.
 
-## Executive Summary
+## Summary
 
 I developed an enhanced RAG system that addresses critical failure patterns in financial document querying by leveraging Morphik's rules-based processing capabilities. My solution demonstrates deep understanding of both the technical challenges and domain-specific requirements of financial data extraction.
 
