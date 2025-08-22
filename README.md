@@ -126,7 +126,6 @@ validation_result = self.answer_validator.validate_answer(result, classification
 ### Key Files
 - `percepta_interview_advanced_eval.py`: Enhanced evaluator with sophisticated query mechanisms
 - `query_enhancement.py`: Query processing pipeline with classification and validation
-- `demo_enhanced_query_system.py`: Interactive demonstration of enhanced features
 
 ### Financial Domain Optimizations
 
