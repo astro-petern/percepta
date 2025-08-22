@@ -184,6 +184,31 @@ evaluator = EnhancedMorphikEvaluator(
 results = evaluator.run_evaluation(skip_ingestion=False)
 ```
 
+### How to run
+
+After running `pip install -r requirements.txt`,
+
+Set your Morphik and OpenAI key.
+```
+export OPENAI_API_KEY=sk-proj...
+export MORPHIK_URI=morphik://percepta:...
+```
+
+Run with ingestion
+```bash
+python percepta_interview_advanced_eval.py --parallel --max-workers 10 --output results/morphik_answers_xyz.csv
+```
+
+Running the advanced eval script, Skipping ingestion, using parallelism
+```bash
+python percepta_interview_advanced_eval.py --parallel --max-workers 10 --skip-ingestion  --output results/morphik_answers_xyz.csv
+```
+
+Running the evaluation script
+```bash
+python evaluate.py results/morphik_answers_xyz.csv --output results/morphik_evaluation_xyz.csv
+```
+
 ## Future Enhancements
 As this was an interview with limited time, I didn't get the chance to explore the full range of opportunities to further improve performance. However, if given more time, here are the additional improvements I would have made.
 
