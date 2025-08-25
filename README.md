@@ -27,7 +27,7 @@
 
 ## Summary
 
-I developed an enhanced RAG system that addresses critical failure patterns in financial document querying by leveraging Morphik's rules-based processing capabilities. My solution demonstrates deep understanding of both the technical challenges and domain-specific requirements of financial data extraction.
+I developed an enhanced RAG system that addresses critical failure patterns in financial document querying by leveraging Morphik's rules-based processing capabilities. My solution demonstrates my understanding of both the technical challenges and domain-specific requirements of financial data extraction.
 
 **Key Achievement**: I reduced failures from 6 to 1 (83% failure reduction) through systematic improvements in query processing, error recovery, and domain-specific optimizations.
 
@@ -42,7 +42,7 @@ From analyzing the baseline evaluation (`percepta_interview_naive_eval.py`), I i
    - NVIDIA inventory charge methodology differences
 
 2. **Server Reliability Issues (4 failures)**
-   - "Error querying Morphik after 4 attempts: Server error '500 Internal Server Error'"
+   - "Error querying Morphik: Server error '500 Internal Server Error'"
 
 
 
@@ -124,7 +124,7 @@ validation_result = self.answer_validator.validate_answer(result, classification
 ## Implementation Highlights
 
 ### Key Files
-- `percepta_interview_advanced_eval.py`: Enhanced evaluator with sophisticated query mechanisms
+- `percepta_interview_advanced_eval.py`: Enhanced evaluator with advanced query mechanisms
 - `query_enhancement.py`: Query processing pipeline with classification and validation
 
 ### Financial Domain Optimizations
